@@ -123,5 +123,8 @@
     "setupFilesAfterEnv": [
       "./tests/config/enzyme-config.ts"
     ]
+  },
+  "babel": {
+    "presets": ["@babel/preset-env", "@babel/preset-react"]
   }
 }
